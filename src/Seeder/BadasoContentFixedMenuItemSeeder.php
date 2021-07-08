@@ -17,7 +17,7 @@ class BadasoContentFixedMenuItemSeeder extends Seeder
         \DB::beginTransaction();
 
         try {
-            $menus = \DB::table('menus')->where('key', 'badaso-content-module')->first();
+            $menus = \DB::table('menus')->where('key', 'content-module')->first();
             $menu_id = $menus->id;
 
             $add_menus_item = [
