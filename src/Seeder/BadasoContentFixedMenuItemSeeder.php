@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use Uasoft\Badaso\Models\MenuItem;
 
-class ContentFixedMenuItemSeeder extends Seeder
+class BadasoContentFixedMenuItemSeeder extends Seeder
 {
     /**
      * Auto generated seed file.
